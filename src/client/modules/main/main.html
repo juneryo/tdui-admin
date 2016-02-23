@@ -1,0 +1,28 @@
+<div ms-controller="main">
+	<div class="main_header">
+		<div class="main_navbar">
+			<a href="#!/main/home" class="main_title waves-effect waves-light">TDUI&nbsp;&nbsp;ADMIN管理控制台</a>
+			<span class="main_toggle glyphicon glyphicon-list" ms-click="toggleMenu($event)"></span>
+			<span class="main_logout glyphicon glyphicon-log-in" title="注销" ms-click="logout($event)"></span>
+			<span class="main_icon glyphicon glyphicon-fullscreen" title="全屏" ms-click="fullScreen($event)"></span>
+		</div>
+		<div class="main_robin">
+			<span>{{path}}</span>
+		</div>
+	</div>
+	<div class="main_brand" ms-css-left="left">
+		<div class="main_logo"></div>
+		<div class="main_login">
+			<span><a href="javascript:void(0)">{{login_user}}&nbsp;({{login_role}})</a></span>
+		</div>
+	</div>
+	<div class="main_sliderbar" ms-css-left="left" ms-css-height="height">
+		<td:tree config="$index_tree" root="false" reverse="true"></td:tree>
+	</div>
+	<div class="container main_body">
+		<div class="main_loading" ms-visible="loading">
+			<i></i><span>Loading...</span>
+		</div>
+		<div class="main_content" ms-view="" ms-visible="!loading"></div>
+	</div>
+</div>

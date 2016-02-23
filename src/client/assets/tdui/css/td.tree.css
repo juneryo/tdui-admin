@@ -1,0 +1,22 @@
+.td_tree_container{margin-bottom:20px;font-size:16px}
+.td_tree_container li{position:relative;margin:0;padding-top:0;padding-left:3px;list-style-type:none}
+.td_tree_container li::after,.td_tree_container li::before{position:absolute;right:auto;left:-20px;content:''}
+.td_tree_container li::before{top:0;bottom:50px;width:1px;height:100%;border-left:1px solid #7a7a7a}
+.td_tree_container li::after{top:12px;width:32px;height:20px;border-top:1px solid #7a7a7a}
+.td_tree_container li>span{display:inline-block;padding-left:12px;cursor:pointer}
+.td_tree_container li>span>a{display:inline-block;color:#000;text-decoration:none;cursor:pointer}
+.td_tree_container>ul.td_tree_noroot{padding-left:0}
+.td_tree_container>ul.td_tree_noroot>li::after,.td_tree_container>ul.td_tree_noroot>li::before{border:0}
+.td_tree_container li:last-child::before{height:12px}
+.td_tree_container li.parent_li>span:hover,.td_tree_container li.parent_li>span:hover+ul li span{border:1px solid #94a0b4;background:#eee;color:#000}
+.td_tree_container .td_tree_loadinfo{color:red;font-size:16px}
+.td_tree_container i.td_tree_icon{display:inline-block;margin-top:2px;width:18px;height:18px;background-repeat:no-repeat;vertical-align:text-top;line-height:18px}
+.td_tree_loading{background-image:url(../img/tree/loading.gif)}
+.td_tree_add{background-image:url(../img/tree/add.png)}
+.td_tree_add_reverse{background-image:url(../img/tree/add_reverse.png)}
+.td_tree_minus{background-image:url(../img/tree/minus.png)}
+.td_tree_minus_reverse{background-image:url(../img/tree/minus_reverse.png)}
+.td_tree_checked{background-image:url(../img/tree/checked.png)}
+.td_tree_unchecked{background-image:url(../img/tree/unchecked.png)}
+.td_tree_checked_disabled{background-image:url(../img/tree/checked-disabled.png)}
+.td_tree_unchecked_disabled{background-image:url(../img/tree/unchecked-disabled.png)}

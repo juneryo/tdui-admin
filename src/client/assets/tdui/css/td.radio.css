@@ -1,0 +1,10 @@
+.td_radio_container{position:relative;height:22px;cursor:pointer;display:inline-block}
+.td_radiogroup_container{position:relative;cursor:pointer;display:inline-block;width:100%}
+.td_radiogroup_container .td_radiogroup_horizontal{margin-top:-10px}
+.td_radiogroup_container .control-label{padding-bottom:15px}
+.td_radio_container .td_radio{position:relative;display:inline-block;height:20px;width:20px}
+.td_radio_container .td_radio_label{position:relative;height:22px;line-height:16px;font-size:16px;bottom:3px}
+.td_radio_container .td_checked{background-image:url(../img/radio/checked.png)}
+.td_radio_container .td_unchecked{background-image:url(../img/radio/unchecked.png)}
+.td_radio_checked_disabled{background-image:url(../img/radio/checked-disabled.png)}
+.td_radio_unchecked_disabled{background-image:url(../img/radio/unchecked-disabled.png)}

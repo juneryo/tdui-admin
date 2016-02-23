@@ -1,0 +1,7 @@
+.td_rate_container{position:relative;display:inline-block;cursor:pointer;width:100%}
+.td_rate_container .td_rate_horizontal{margin-top:10px}
+.td_rate_container .control-label{padding-bottom:15px}
+.td_rate_container .td_rate{position:relative;display:inline-block;height:24px;width:24px}
+.td_rate_container .td_rate_checked{background-image:url(../img/rate/checked.png)}
+.td_rate_container .td_rate_unchecked{background-repeat:no-repeat;background-image:url(../img/rate/unchecked.png)}
+.td_rate_container .td_rate_halfchecked{background-repeat:no-repeat;background-image:url(../img/rate/halfchecked.png)}

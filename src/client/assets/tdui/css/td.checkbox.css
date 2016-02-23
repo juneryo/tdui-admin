@@ -1,0 +1,10 @@
+.td_checkbox_container{position:relative;height:22px;cursor:pointer;display:inline-block}
+.td_checkboxgroup_container{position:relative;cursor:pointer;display:inline-block;width:100%}
+.td_checkboxgroup_container .td_checkboxgroup_horizontal{margin-top:-10px}
+.td_checkboxgroup_container .control-label{padding-bottom:15px}
+.td_checkbox_container .td_checkbox{position:relative;display:inline-block;height:20px;width:20px}
+.td_checkbox_container .td_checkbox_label{position:relative;height:22px;line-height:16px;font-size:16px;bottom:3px}
+.td_checkbox_container .td_checked{background-image:url(../img/checkbox/checked.png)}
+.td_checkbox_container .td_unchecked{background-image:url(../img/checkbox/unchecked.png)}
+.td_checkbox_checked_disabled{background-image:url(../img/checkbox/checked-disabled.png)}
+.td_checkbox_unchecked_disabled{background-image:url(../img/checkbox/unchecked-disabled.png)}
