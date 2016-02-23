@@ -23,7 +23,7 @@ userActRouter.get("/addMore", function(req, res, next) {
     var flag = i % 10, user = {};
     switch (flag) {
       case 1:
-        user = {"chinese_name": "罗阳", "english_name": "yangluo", "gender": "male", "age": 30, "address": "上海市浦东新区玉兰香苑4期99号601", "mobile": "13900001111", "recreational": ["游戏", "足球", "篮球", "唱歌", "旅游"], "status": 1};
+        user = {"chinese_name": "罗总", "english_name": "yangluo", "gender": "male", "age": 30, "address": "上海市浦东新区玉兰香苑x期xx号", "mobile": "13900001111", "recreational": ["游戏", "足球", "篮球", "唱歌", "旅游"], "status": 1};
         break;
       case 2:
         user = {"chinese_name": "贱晕", "english_name": "yun", "gender": "male", "age": 30, "address": "上海市浦东新区玉兰香苑1期", "mobile": "13822221111", "recreational": ["游戏", "桌球", "唱歌", "吉他", "旅游"], "status": 1};
@@ -50,7 +50,7 @@ userActRouter.get("/addMore", function(req, res, next) {
         user = {"chinese_name": "萍姐", "english_name": "pingjie", "gender": "female", "age": 35, "address": "不知道", "mobile": "13011112121", "recreational": ["麻将", "唱歌", "旅游"], "status": 0};
         break;
       default:
-        user = {"chinese_name": "余峻", "english_name": "junyu", "gender": "male", "age": 31, "address": "上海市浦东新区银山路200弄60号301", "mobile": "13916632060", "recreational": ["游戏", "羽毛球", "唱歌", "旅游"], "status": 1};
+        user = {"chinese_name": "小余", "english_name": "junyu", "gender": "male", "age": 31, "address": "上海市浦东新区银山路xxx弄xx号", "mobile": "13916632000", "recreational": ["游戏", "羽毛球", "唱歌", "旅游"], "status": 1};
     }
     arr.push(user);
   }
