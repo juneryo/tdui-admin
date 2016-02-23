@@ -1,5 +1,5 @@
 # tdui-admin
-使用webpack整合打包tdui、mmstate的SPA项目示例。  
+使用webpack整合打包avalon、tdui、mmstate的SPA项目示例。  
 npm install安装依赖模块。
   
 安装前可设置使用淘宝镜像：  
