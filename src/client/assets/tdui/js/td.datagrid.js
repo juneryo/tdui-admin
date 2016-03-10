@@ -11,7 +11,8 @@ define(['avalon', 'mmRequest', 'text!../html/td.datagrid.html', 'css!../css/td.d
 		checkbox: true,  //是否显示checkbox
 		singleSelect: false,
 		editable: false,
-		bar: true,
+		bar: true,  //工具条
+        shadow: false,  //边框阴影
 		limit: 10,  //页大小
 		//外部配置参数
 		loadUrl: '',  //加载数据地址
@@ -542,4 +543,6 @@ define(['avalon', 'mmRequest', 'text!../html/td.datagrid.html', 'css!../css/td.d
 			vm.$trigger(elem, 'ready');
     }
 	});
+	var widget = avalon.components["td:datagrid"];
+  widget.regionals = {};
 });
