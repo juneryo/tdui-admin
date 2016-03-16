@@ -167,16 +167,16 @@ define(['echarts', 'tdPanel', 'tdTab'], function (echarts) {
 	};
 	var vHome = avalon.define(opts);
 
-	return avalon.controller(function ($ctrl) {
-    $ctrl.$onRendered = function () {
+    return avalon.controller(function ($ctrl) {
+        $ctrl.$onRendered = function () {
 
-    };
-    $ctrl.$onEnter = function (param, rs, rj) {
+        };
+        $ctrl.$onEnter = function (param, rs, rj) {
 
-    };
-    $ctrl.$onBeforeUnload = function () {
-			avalon.mix(true, vHome, opts);
-    };
-    $ctrl.$vmodels = [vHome];
-  });
+        };
+        $ctrl.$onBeforeUnload = function () {
+            
+        };
+        $ctrl.$vmodels = [vHome];
+    });
 });

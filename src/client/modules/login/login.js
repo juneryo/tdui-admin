@@ -14,17 +14,17 @@ define(['tdui', 'mmState', 'tdForm', 'tdText', 'tdPassword'], function (TD) {
 	var vLogin = avalon.define(opts);
 
 	return avalon.controller(function ($ctrl) {
-    $ctrl.$onRendered = function () {
+        $ctrl.$onRendered = function () {
 
-    };
-    $ctrl.$onEnter = function (param, rs, rj) {
-			if(avalon.vmodels['index'] && avalon.vmodels['index'].bg_cls != 'login') {
-				avalon.vmodels['index'].bg_cls = 'login';
-			}
-    };
-    $ctrl.$onBeforeUnload = function () {
-			avalon.mix(true, vLogin, opts);
-    };
-    $ctrl.$vmodels = [vLogin];
-  });
+        };
+        $ctrl.$onEnter = function (param, rs, rj) {
+            if(avalon.vmodels['index'] && avalon.vmodels['index'].bg_cls != 'login') {
+                avalon.vmodels['index'].bg_cls = 'login';
+            }
+        };
+        $ctrl.$onBeforeUnload = function () {
+
+        };
+        $ctrl.$vmodels = [vLogin];
+    });
 });

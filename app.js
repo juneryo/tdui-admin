@@ -11,6 +11,9 @@ app.use("/src/client/assets/animation/css", express.static(path.join(__dirname, 
 app.use("/src/client/assets/tdui-admin/css", express.static(path.join(__dirname, "src/client/assets/tdui-admin/css")));
 app.use("/src/client/assets/tdui-admin/img", express.static(path.join(__dirname, "src/client/assets/tdui-admin/img")));
 app.use("/src/client/assets/animation/js", express.static(path.join(__dirname, "src/client/assets/animation/js")));
+//for ie8
+app.use("/src/client/assets/iehack", express.static(path.join(__dirname, "src/client/assets/iehack")));
+app.use("/src/client/assets/avalon", express.static(path.join(__dirname, "src/client/assets/avalon")));
 
 //路由配置 以/xxx开头的请求全部交由xxx.js处理
 app.use("/userAct", require("./src/server/routers/router-user-act.js"));

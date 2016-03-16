@@ -103,7 +103,7 @@ define(['tdui', 'tdDatagrid', 'tdDialog', 'tdForm', 'tdText', 'tdSelect'], funct
 
 		}
 		$ctrl.$onBeforeUnload = function() {
-			avalon.mix(true, vEx01, opts);
+			
 		}
 		$ctrl.$vmodels = [vEx01];
 	});

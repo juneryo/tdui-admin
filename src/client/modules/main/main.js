@@ -69,16 +69,16 @@ define(['tdui', 'mmState', 'tdTree'], function (TD) {
 
 	return avalon.controller(function ($ctrl) {
     $ctrl.$onRendered = function () {
-			avalon.router.navigate('/main/home');
+        avalon.router.navigate('/main/home');
     };
     $ctrl.$onEnter = function (param, rs, rj) {
-			if(avalon.vmodels['index'] && avalon.vmodels['index'].bg_cls != 'main') {
-				avalon.vmodels['index'].bg_cls = 'main';
-			}
-			//avalon.router.navigate('/error/404'); return false;
+        if(avalon.vmodels['index'] && avalon.vmodels['index'].bg_cls != 'main') {
+            avalon.vmodels['index'].bg_cls = 'main';
+        }
+        //avalon.router.navigate('/error/404'); return false;
     };
     $ctrl.$onBeforeUnload = function () {
-			avalon.mix(true, vMain, opts);
+        
     };
     $ctrl.$vmodels = [vMain];
   });
